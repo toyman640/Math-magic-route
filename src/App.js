@@ -1,6 +1,8 @@
 // App.js
-import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
-import "./App.css"
+import {
+  BrowserRouter, Routes, Route, Outlet,
+} from 'react-router-dom';
+import './App.css';
 
 function Layout() {
   return (
@@ -8,7 +10,7 @@ function Layout() {
       <h1>Layout</h1>
       <Outlet />
     </>
-  )
+  );
 }
 
 function App() {
@@ -22,7 +24,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
